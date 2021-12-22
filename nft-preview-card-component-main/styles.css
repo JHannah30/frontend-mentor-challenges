@@ -56,10 +56,36 @@ p {
     background-color: #15273fff;
 }
 
-.card-img {
+.card-image {
     width: 200px;
     height: 200px;
     border-radius: 5px;
+    background-image: url("./images/image-equilibrium.jpg");
+    background-size: cover;
+}
+
+.card-image-overlay {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card-image-overlay:hover {
+    background: rgba(17, 205, 211, .6);
+    cursor: pointer;
+}
+
+.view-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.card-image-overlay .view-icon {
+    display: none;
+}
+
+.card-image-overlay:hover .view-icon{
+    display: block;
 }
 
 .card-p {
@@ -73,6 +99,7 @@ p {
     display: flex;
     justify-content: space-between;
 }
+
 
 .etherium-icon {
     width: 8px;
