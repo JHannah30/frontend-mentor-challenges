@@ -63,7 +63,7 @@ p {
 }
 
 .card-p {
-    height: 20px;
+    margin: 0;
 }
 
 .card-metrics {
