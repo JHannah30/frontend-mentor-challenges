@@ -87,3 +87,58 @@ span {
     font-size: 9px;
     color: hsla(0, 0%, 100%, 0.6);
 }
+
+@media (max-width: 375px) {
+    .card {
+        width: 250px;
+        height: auto;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+
+    .card-image {
+        width: 100%;
+        height: auto;
+        /* background-image: url("./images/image-header-desktop.jpg");
+        background-size: cover;
+        border-radius: 0 5px 5px 0; */
+    }
+
+    .card-body {
+        width: 100%;
+        height: auto;
+        border-radius: 5px 0 0 5px;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+    }
+    
+    .body-contents {
+        margin: 30px;
+    }
+
+    .stats {
+        width: 100%;
+        margin-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .stats-item {
+        margin-top: 20px;
+    }
+
+    .stats-item h3{
+        margin: 0;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .stats-item p {
+        margin: 0;
+        font-size: 9px;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+
+    .body-p {
+        font-size: 9px;
+    }
+}
